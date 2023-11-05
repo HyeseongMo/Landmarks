@@ -11,6 +11,9 @@
 		0640FBE92AF767D100D789D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640FBE82AF767D100D789D1 /* ContentView.swift */; };
 		0640FBEB2AF767D200D789D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0640FBEA2AF767D200D789D1 /* Assets.xcassets */; };
 		0640FBEE2AF767D200D789D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0640FBED2AF767D200D789D1 /* Preview Assets.xcassets */; };
+		0640FBFC2AF77CE200D789D1 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0640FBFB2AF77CE200D789D1 /* turtlerock@2x.jpg */; };
+		0640FBFE2AF77D3E00D789D1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640FBFD2AF77D3E00D789D1 /* CircleImage.swift */; };
+		0640FC002AF7865600D789D1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640FBFF2AF7865600D789D1 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0640FBE82AF767D100D789D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0640FBEA2AF767D200D789D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0640FBED2AF767D200D789D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0640FBFB2AF77CE200D789D1 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
+		0640FBFD2AF77D3E00D789D1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0640FBFF2AF7865600D789D1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		0640FBE52AF767D100D789D1 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				0640FBFA2AF77CCE00D789D1 /* Resources */,
 				0640FBE62AF767D100D789D1 /* LandmarksApp.swift */,
 				0640FBE82AF767D100D789D1 /* ContentView.swift */,
+				0640FBFD2AF77D3E00D789D1 /* CircleImage.swift */,
+				0640FBFF2AF7865600D789D1 /* MapView.swift */,
 				0640FBEA2AF767D200D789D1 /* Assets.xcassets */,
 				0640FBEC2AF767D200D789D1 /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				0640FBED2AF767D200D789D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0640FBFA2AF77CCE00D789D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0640FBFB2AF77CE200D789D1 /* turtlerock@2x.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0640FBFC2AF77CE200D789D1 /* turtlerock@2x.jpg in Resources */,
 				0640FBEE2AF767D200D789D1 /* Preview Assets.xcassets in Resources */,
 				0640FBEB2AF767D200D789D1 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0640FBE92AF767D100D789D1 /* ContentView.swift in Sources */,
+				0640FC002AF7865600D789D1 /* MapView.swift in Sources */,
 				0640FBE72AF767D100D789D1 /* LandmarksApp.swift in Sources */,
+				0640FBFE2AF77D3E00D789D1 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
