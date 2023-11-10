@@ -29,6 +29,7 @@ struct CategoryRow: View {
                         
                     }
                 }
+                .padding(.trailing)
             }
             .frame(height: 185)
         }
